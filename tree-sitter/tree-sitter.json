@@ -1,0 +1,27 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "intlang",
+      "camelcase": "IntLang",
+      "scope": "source.intlang",
+      "file-types": ["int"],
+      "injection-regex": "^int$",
+      "class-name": "TreeSitterIntLang"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "Unlicence",
+    "description": "IntLang grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "James Henderson",
+        "email": "james@jarohen.dev"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/jarohen/truffle-tree-sitter-starter.git"
+    }
+  }
+}

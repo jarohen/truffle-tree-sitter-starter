@@ -1,0 +1,25 @@
+= 'IntLang' - a Truffle Tree-sitter starter
+
+This project is a small template for:
+
+- a https://www.graalvm.org/latest/graalvm-as-a-platform/language-implementation-framework/[Truffle] language
+- written in Kotlin (packaged with Gradle)
+- that uses a https://tree-sitter.github.io/tree-sitter/[tree-sitter] grammar
+
+It parses an int, and returns it - the rest, as they say, is an exercise left to the reader!
+
+== Pre-requisites:
+
+Only tested on Linux thus far - testing on other platforms welcome.
+
+Ensure you have the following installed on your system - most likely, through your usual package manager:
+
+- GraalVM CE 22+
+- `tree-sitter-cli`
+- `clang`
+
+== Licence
+
+This is free and unencumbered software released into the public domain.
+
+For the full text of the Unlicense, see the LICENSE file.
